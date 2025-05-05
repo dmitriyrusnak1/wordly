@@ -1,2 +1,2 @@
-npm run compile
+pnpm compile
 lint-staged

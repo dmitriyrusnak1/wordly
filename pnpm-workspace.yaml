@@ -1,0 +1,14 @@
+packages:
+  # include all packages in the apps directory
+  - "apps/*"
+  # include all packages in the packages directory
+  - "packages/*"
+  # exclude test directories
+  - "!**/test/**"
+  # exclude node_modules
+  - "!**/node_modules/**"
+  # exclude .next build directories
+  - "!**/.next/**"
+  # exclude any temporary files
+  - "!**/tmp/**"
+  - "!**/temp/**"
